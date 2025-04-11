@@ -1,0 +1,187 @@
+/* PDF Styles for Chassis Order Form */
+.chassis-order-form-container {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.chassis-order-form {
+    width: 800px;
+    border: 2px solid #000;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Styles */
+.header {
+    display: flex;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #000;
+}
+
+.logo {
+    width: 80px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #000;
+}
+
+.logo-circle {
+    width: 50px;
+    height: 20px;
+    background-color: #ff0000;
+    border-radius: 25px;
+    position: relative;
+}
+
+.logo-circle:before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 5px;
+    background-color: #000;
+    top: 7px;
+    left: 5px;
+}
+
+.title {
+    flex-grow: 1;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px 0;
+    border-right: 1px solid #000;
+}
+
+.dates {
+    width: 180px;
+    background-color: #ffff00;
+}
+
+.dates table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.date-label {
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.date-value {
+    font-size: 12px;
+    padding: 5px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+.info-table td {
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.value {
+    text-align: left;
+}
+
+.option {
+    text-align: center;
+}
+
+/* Section Headers */
+.section-header {
+    background-color: #ffff00;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #000;
+    font-size: 14px;
+}
+
+.sub-header {
+    background-color: #ffff00;
+    font-weight: bold;
+    text-align: center;
+    padding: 3px;
+    border: 1px solid #000;
+    font-size: 12px;
+}
+
+/* Highlight */
+.highlight {
+    background-color: #ffff00;
+}
+
+/* Dimensions Table */
+.dimensions-table td {
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+/* Step Table */
+.step-table td {
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+/* Frame Table */
+.frame-table td {
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+/* Extras Table */
+.extras-table td {
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+/* Contact Info */
+.contact-info {
+    margin-top: 10px;
+}
+
+.contact-info table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.contact-info td {
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+/* Button Styles */
+.generate-button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.generate-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Preview Container */
+.preview-container {
+    margin-top: 20px;
+    border: 1px dashed #ccc;
+    padding: 10px;
+}

@@ -1,0 +1,14 @@
+@media print {
+  .bg-yellow-300 {
+    background-color: #fde047 !important;
+  }
+  .bg-red-600 {
+    background-color: #dc2626 !important;
+  }
+  .bg-orange-200 {
+    background-color: #fed7aa !important;
+  }
+  .border-black {
+    border-color: #000 !important;
+  }
+}
